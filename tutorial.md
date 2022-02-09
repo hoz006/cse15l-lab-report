@@ -82,5 +82,16 @@ There are many techniques you can use to make your remote running more pleasent 
 * You can write a command in quotes at the end of an ssh command to directly run it on the remote server.
 * control(command) + delete to delete the entire line
 
-Here, I tried some of the techniques above.
+Here, I tried some of the techniques above. Using the up arrow, it only used 2 key strokes to execute the command I needed.
 ![Image](optimize.png)
+
+Using up-arrow & ctrl-c & ctrl-v:
+> Using the up arrow allows you to recall the command you used previously. It is also a good habit to keep the compile and run command in your code somewhere so that it's easy for you to copy and paste it at a later time when needed. Using these two techniques, it only cost five keystrokes to execute the following command.(I used up arrow here: up&up, enter, up&up, enter. With copy&paste, it'll give you a keystrokes of around 10, which is also very fast)
+
+![Image](Using-up-tab.png)
+
+Another technique with github: 
+>Using Github is also a very useful technique, I would not need to use scp to copy the folders but instead use github to push, clone, and pull changes from github. Using copy and paste alone with github, the clone and running only uses 17 keystrokes, comparing with the >30 keystrokes with scp.
+
+![Image](Using-github.png)
+
