@@ -23,3 +23,6 @@ Test whether we can push changes to github. (Pushing is only allowed on SSH if w
 
 
 ![Image](Commit_history.png)
+
+You can find the commit history on github to check whether it is successful on its end. See
+[Github Commit History](https://github.com/hoz006/cse15l-lab-report/commit/6fb1754375d7f95cbb4c11bfe841c49cf574f045).
