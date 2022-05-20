@@ -68,7 +68,8 @@ This requires code:
 >ssh-keygen   <br />
 mkdir .ssh
 
-Execute the first on the client. This will generate a private key and a public key on your computer (in your .ssh folder). Then on the server, create a directory of .ssh, and copy the public key from your computer to it. As done below:
+Execute the keygenerating command ssh-keygen first on the client, choose a name for the key file. This will generate a private key and a public key on 
+your computer (in your .ssh folder). Then on the server, create a directory of .ssh (if there is none) using the mkdir command, and copy the public key from your computer to the .ssh folder. As done below:
 
 ![Image](sshkey-setup.png)
 
