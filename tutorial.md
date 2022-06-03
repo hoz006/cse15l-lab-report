@@ -83,6 +83,12 @@ There are many techniques you can use to make your remote running more pleasent 
 * You can write a command in quotes at the end of an ssh command to directly run it on the remote server.
 * control(command) + delete to delete the entire line
 
+Some useful command:
+* rm -r <folderName>    //rm (remove) -r (recursively) remove folder and all the contents in it
+* to access pi-cluster under the ieng6 ucsd network outside of ucsd network, (ssh <username>@pi-cluster.ucsd.edu), a jump host command is needed
+  use ssh <username>@pi-cluster.ucsd.edu -J <username>@ieng6.ucsd.edu
+  more on the jump host command can be found at [SSH jump host](https://wiki.gentoo.org/wiki/SSH_jump_host#:~:text=An%20alternative%20to%20SSH%20tunneling,and%20forward%20all%20traffic%20through.)
+
 Here, I tried some of the techniques above. Using the up arrow, it only used 2 key strokes to execute the command I needed.
 ![Image](optimize.png)
 
